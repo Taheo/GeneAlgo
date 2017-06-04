@@ -16,5 +16,10 @@ namespace GeneAlgo
         {
             InitializeComponent();
         }
+
+        double Function(double x, double y)
+        {
+            return y * x; //
+        }
     }
 }

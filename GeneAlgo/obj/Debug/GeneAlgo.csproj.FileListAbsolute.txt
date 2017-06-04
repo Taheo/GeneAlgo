@@ -1,0 +1,8 @@
+E:\programowanie\c#\GeneAlgo\GeneAlgo\bin\Debug\GeneAlgo.exe.config
+E:\programowanie\c#\GeneAlgo\GeneAlgo\bin\Debug\GeneAlgo.exe
+E:\programowanie\c#\GeneAlgo\GeneAlgo\bin\Debug\GeneAlgo.pdb
+E:\programowanie\c#\GeneAlgo\GeneAlgo\obj\Debug\GeneAlgo.csprojResolveAssemblyReference.cache
+E:\programowanie\c#\GeneAlgo\GeneAlgo\obj\Debug\GeneAlgo.Properties.Resources.resources
+E:\programowanie\c#\GeneAlgo\GeneAlgo\obj\Debug\GeneAlgo.csproj.GenerateResource.Cache
+E:\programowanie\c#\GeneAlgo\GeneAlgo\obj\Debug\GeneAlgo.exe
+E:\programowanie\c#\GeneAlgo\GeneAlgo\obj\Debug\GeneAlgo.pdb

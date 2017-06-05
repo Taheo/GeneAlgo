@@ -17,9 +17,10 @@ namespace GeneAlgo
             InitializeComponent();
         }
 
-        double Function(double x, double y)
+        
+        double RastriginFunction(double x, double y)
         {
-            return y * x; //
+            return -(20 + (Math.Pow(x, 2) - 20 * Math.Cos(2 * Math.PI * Math.Pow(x, 2))) + (Math.Pow(y, 2) - 20 * Math.Cos(2 * Math.PI * Math.Pow(y, 2))));
         }
     }
 }

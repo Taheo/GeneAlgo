@@ -22,5 +22,11 @@ namespace GeneAlgo
         {
             return -(20 + (Math.Pow(x, 2) - 20 * Math.Cos(2 * Math.PI * Math.Pow(x, 2))) + (Math.Pow(y, 2) - 20 * Math.Cos(2 * Math.PI * Math.Pow(y, 2))));
         }
+
+        List<double> CalcFunctValue()
+        {
+            return 
+        }
+
     }
 }

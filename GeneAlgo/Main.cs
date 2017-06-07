@@ -23,9 +23,17 @@ namespace GeneAlgo
             return -(20 + (Math.Pow(x, 2) - 20 * Math.Cos(2 * Math.PI * Math.Pow(x, 2))) + (Math.Pow(y, 2) - 20 * Math.Cos(2 * Math.PI * Math.Pow(y, 2))));
         }
 
-        List<double> CalcFunctValue()
+        List<Person> CalcFunctValue()
         {
-            return 
+            List<Person> pop = Person.BornPop();
+            List<Person> newborn = new List<Person>();
+            foreach (var item in pop)
+            {
+                item.getPersonZ = RastriginFunction(item.getPersonX, item.getPersonY);
+                newborn.Add(item);
+            }
+
+            return newborn;
         }
 
     }
